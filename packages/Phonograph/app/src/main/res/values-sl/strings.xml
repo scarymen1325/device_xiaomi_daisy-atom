@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bug_report_failed_unknown">Prišlo je do nepričakovane napake. Kontaktirajte razvijalca programa.</string>
+    <!-- App Shortcuts -->
+</resources>

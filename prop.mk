@@ -25,6 +25,4 @@ persist.camera.stats.test=5 \
 persist.camera.HAL3.enabled=1 \
 persist.vendor.camera.CDS=off
 
-# Havoc
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.havoc.maintainer=Tushar Mahajan(mahajant99)
+

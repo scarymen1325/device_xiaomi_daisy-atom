@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_lockscreen">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="album_art_on_lockscreen"
+            android:summary="@string/pref_summary_album_art_on_lockscreen"
+            android:title="@string/pref_title_album_art_on_lockscreen" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="album_art_on_lockscreen"
+            android:key="blurred_album_art"
+            android:summary="@string/pref_summary_blurred_album_art"
+            android:title="@string/pref_title_blurred_album_art" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
