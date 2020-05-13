@@ -104,7 +104,8 @@ PRODUCT_PACKAGES += \
     AuroraStore \
     FDroid \
     FDroidPrivilegedExtension \
-    MatLog
+    MatLog \
+    Phonograph
 
 # Sensors
 PRODUCT_COPY_FILES += \

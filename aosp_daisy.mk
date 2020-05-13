@@ -24,6 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
+# Certs
+PRODUCT_DEFAULT_DEV_CERTIFICATE := /device/xiaomi/daisy/certs
+
 # Inherit some common AtomOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
